@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Matemasie&family=Mogra&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home span {
+  font-family: "Mogra", system-ui;
+}
+.home h1,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+.custom-rouded {
+  border-radius: 0 0 50px 50px;
+}
+.custom-btn-rouded {
+  border-radius: 5px 20px;
+}
+.category .container {
+  overflow-x: scroll;
+}
+.category .wrapper::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.category .wrapper:hover::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.category .wrapper::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #e0e7ff, #c7d2fe);
+  border-radius: 10px;
+}
+.category .wrapper::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 10px;
+}
+.category .wrapper::-webkit-scrollbar-thumb:hover {
+  background: orange;
+}
+.category .wrapper::-webkit-scrollbar-thumb:active {
+  background: orange;
+}
